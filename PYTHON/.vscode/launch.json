@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Hello render (random actions)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/hello_render.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Hello train (SAC smoke test)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/hello_train.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Watch trained model",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/watch_model.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Current file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
